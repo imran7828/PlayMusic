@@ -1,0 +1,128 @@
+#Login{
+    justify-content: center;
+    align-items: center;
+    display: flex;   
+    height: 50rem;
+    width: 50rem;
+}
+#information{   
+    height: 50rem;
+    width: 19rem;
+    
+}
+#Login::before{
+    content: "";
+    background: url(BackG2.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+h1{
+    font-size: 6rem;
+    text-align: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin-bottom: 0rem;
+}
+#button-1{
+    border-radius: 3.1rem;
+    background-color: rgb(66 103 178);
+    font-size: x-large;
+    padding: 0.5rem;
+    border: none;
+    display: block;
+    width: 20rem;
+    margin-left: 2rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+#button-1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    }
+#button-2 {
+    border-radius: 34px;
+    font-size: x-large;
+    padding: 0.5rem;
+    border: none;
+    width: 20rem;
+    background-color: black;
+    color: white;
+    margin-left: 2rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+#button-2 a{
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+#button-3 {
+    border-radius: 34px;
+    font-size: x-large;
+    padding: 0.5rem;
+    border: none;
+    width: 20rem;
+    background-color: rgb(211, 206, 206);
+    color: white;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+#button-3 a{
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
+
+#information p{
+    font-weight: 400;
+    font-size: 2rem;
+}
+#Login-info{
+    font-size: medium;
+    padding: 10px;
+    margin:10px;
+    width: 20rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    }
+    #Password{
+        font-size: medium;
+        padding: 10px;
+        margin:10px;
+        width: 20rem;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        }
+        a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-family: 'Baloo Bhaijaan 2', cursive;
+        }
+        #button-Login {
+            border-radius: 34px;
+            font-size: x-large;
+            padding: 0.5rem;
+            border: none;
+            width: 10rem;
+            background-color: rgb(255, 0, 85);
+            color: rgb(255, 255, 255);
+            margin-left: 6rem;
+            margin-top: 2rem;
+            cursor: pointer;
+            font-family: 'Baloo Bhaijaan 2', cursive;
+        }
+        #button-Login:hover{
+            background-color: rgb(255, 0, 85);
+        }
+        #button-4 {
+            border-radius: 34px;
+            font-size: x-large;
+            padding: 0.5rem;
+            border: none;
+            width: 20rem;
+            background-color: rgb(255, 0, 85);
+            color: white;
+            margin-left: 2rem;
+            font-family: 'Baloo Bhaijaan 2', cursive;
+        }
+        #button-4 a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
